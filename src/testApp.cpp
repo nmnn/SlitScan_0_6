@@ -72,7 +72,7 @@ void testApp::getPixel(int horizontal, int vertical, unsigned char* R, unsigned 
 //--------------------------------------------------------------
 void testApp::draw(){
     //Set background to black every frame, not really needed
-    ofBackground(0);
+    ofBackground(0, 0, 0);
 
     //Draw WebcamVideo, uncomment to show
     //vidGrabber.draw(0, 0);
